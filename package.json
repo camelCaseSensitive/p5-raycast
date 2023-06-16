@@ -1,0 +1,26 @@
+{
+  "name": "p5-raycast",
+  "version": "1.0.2",
+  "description": "Function to raycast for 3D object picking",
+  "main": "p5-raycast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camelCaseSensitive/p5-raycast.git"
+  },
+  "keywords": [
+    "p5js",
+    "raycasting",
+    "object-picking",
+    "3D",
+    "WEBGL"
+  ],
+  "author": "Ryan Gilmour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camelCaseSensitive/p5-raycast/issues"
+  },
+  "homepage": "https://github.com/camelCaseSensitive/p5-raycast#readme"
+}
