@@ -4,7 +4,14 @@ A function for raycasting in WEBGL mode in p5js.
 
 ## Installation
 
-Add this CDN to a script tag in your index.html file [https://cdn.jsdelivr.net/npm/p5-raycast@1.0.1/p5-raycast.js](https://cdn.jsdelivr.net/npm/p5-raycast@1.0.1/p5-raycast.js)
+Add this [CDN](https://cdn.jsdelivr.net/npm/p5-first-person-camera@1.0.1/FirstPersonCamera.js) to a script tag in your index.html file 
+
+```
+<script src="https://cdn.jsdelivr.net/npm/p5-raycast@1.0.1/p5-raycast.js"></script>
+```
+
+
+or Install via the command line
 
 ```bash
 npm i p5-raycast
@@ -27,10 +34,13 @@ raycast(rayDistance, objectPosition, objectRadius);     // Returns a boolean
 ```
 ## Dependencies
 
-[math.js](https://cdnjs.com/libraries/mathjs)
+The matrix math for un-projecing is done with [math.js](https://cdnjs.com/libraries/mathjs)
 
-## Example
-[Live demo in p5 editor](https://editor.p5js.org/rjgilmour/sketches/tjJRQOpeN)
+Copy and paste this script tag into your `index.html` file
+
+```
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.1/math.js" integrity="sha512-5nftKkjZO1gtHEWFlUGXi/vuXzFnWTom549IH/gMqOiJHcPfH5z/1DO8/c0qnoG0R8RCVLOeBDXhCjg2+23nqQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
 
 ## Contributing
 
