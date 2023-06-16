@@ -25,6 +25,9 @@ The raycast function accepts three arguments:
 ```javascript
 raycast(rayDistance, objectPosition, objectRadius);     // Returns a boolean
 ```
+## Dependencies
+
+[math.js](https://cdnjs.com/libraries/mathjs)
 
 ## Contributing
 
