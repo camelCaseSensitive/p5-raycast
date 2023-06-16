@@ -29,6 +29,9 @@ raycast(rayDistance, objectPosition, objectRadius);     // Returns a boolean
 
 [math.js](https://cdnjs.com/libraries/mathjs)
 
+## Example
+[Live demo in p5 editor](https://editor.p5js.org/rjgilmour/sketches/tjJRQOpeN)
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first
