@@ -54,7 +54,7 @@ function raycast(d, pos, thresh){
     
     // Picking detection
     if(dist(ray[0], ray[1], ray[2], pos[0], pos[1], pos[2]) < thresh) {
-      return true
+      return ray;
     }
     return false;
   }
