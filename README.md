@@ -4,7 +4,7 @@ A function for raycasting in WEBGL mode in p5js.
 
 ## Installation
 
-Add this [CDN](https://cdn.jsdelivr.net/npm/p5-first-person-camera@1.0.1/FirstPersonCamera.js) to a script tag in your index.html file 
+Add this [CDN](https://cdn.jsdelivr.net/npm/p5-first-person-camera@1.0.6/FirstPersonCamera.js) to a script tag in your index.html file 
 
 ```
 <script src="https://cdn.jsdelivr.net/npm/p5-raycast@1.0.1/p5-raycast.js"></script>
