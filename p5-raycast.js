@@ -27,7 +27,10 @@ function raycast(d, pos, thresh){
     let w = camV[3];
     
     // Model View Matrix
-    let m = _renderer.uMVMatrix.mat4;
+  
+    const uMVMatrix = _renderer.uModelMatrix.copy().mult(_renderer.uViewMatrix)
+  
+    let m = uMVMatrix.mat4;
     let modelViewMatrix = [
       [m[0], m[1], m[2], m[3]],
       [m[4], m[5], m[6], m[7]],
@@ -54,7 +57,7 @@ function raycast(d, pos, thresh){
     
     // Picking detection
     if(dist(ray[0], ray[1], ray[2], pos[0], pos[1], pos[2]) < thresh) {
-      return ray;
+      return [ray, true]
     }
-    return false;
+    return [ray, false];
   }
