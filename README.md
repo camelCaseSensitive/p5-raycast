@@ -30,7 +30,7 @@ The raycast function accepts three arguments:
 - `objectPosition`: An array `[x, y, z]` defining the position of the object you want to select in world space.
 - `objectRadius`: The distance from the object's position which is considered a "hit".
 ```javascript
-raycast(rayDistance, objectPosition, objectRadius);     // Returns the tip of the ray [x, y, z] and a boolean
+raycast(rayDistance, objectPosition, objectRadius);     // Returns an array containing the tip of the ray [x, y, z] and a boolean
 ```
 ## Dependencies
 
