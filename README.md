@@ -7,7 +7,7 @@ A function for raycasting in WEBGL mode in p5js.
 Add this [CDN](https://cdn.jsdelivr.net/npm/p5-first-person-camera@1.0.6/FirstPersonCamera.js) to a script tag in your index.html file 
 
 ```
-<script src="https://cdn.jsdelivr.net/npm/p5-raycast@1.0.1/p5-raycast.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/p5-raycast@1.0.6/p5-raycast.js"></script>
 ```
 
 
@@ -30,7 +30,7 @@ The raycast function accepts three arguments:
 - `objectPosition`: An array `[x, y, z]` defining the position of the object you want to select in world space.
 - `objectRadius`: The distance from the object's position which is considered a "hit".
 ```javascript
-raycast(rayDistance, objectPosition, objectRadius);     // Returns a boolean
+raycast(rayDistance, objectPosition, objectRadius);     // Returns the tip of the ray [x, y, z] and a boolean
 ```
 ## Dependencies
 
